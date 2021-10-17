@@ -101,7 +101,6 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-
     marcel (1.0.2)
     method_source (1.0.0)
     mimemagic (0.3.10)
@@ -117,7 +116,9 @@ GEM
       racc (~> 1.4)
     pg (1.2.3)
     public_suffix (4.0.6)
-    puma (3.12.6)
+    puma (4.3.10)
+      nio4r (~> 2.0)
+    racc (1.5.2)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -217,8 +218,7 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.2)
   mimemagic (~> 0.3.10)
   pg
-
-  puma (~> 3.12)
+  puma (~> 4.3)
   rails (~> 5.2.6)
   sass-rails (~> 5.0)
   selenium-webdriver
