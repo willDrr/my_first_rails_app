@@ -18,14 +18,11 @@ group :development, :test do
    gem 'pg'
  end
 # Use Puma as the app server
-<<<<<<< HEAD
 # original
 gem 'puma', '~> 3.12'
 
 # gem 'puma', '~> 4.3.9'
-=======
 gem 'puma', '~> 4.3'
->>>>>>> 0f1940a07b65c270e6b183172ab6ce3e10eb2408
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
