@@ -8,4 +8,13 @@ class EjemplosController
       return
     end
   end
+
+
+  def make_something
+    o = Object.new
+    def o.make
+      puts "Making"    
+    end
+    return o
+  end
 end

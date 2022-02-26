@@ -10,7 +10,7 @@ class CarsController < ApplicationController
   # GET /cars/1
   # GET /cars/1.json
   def show
-  end
+  end  
 
   # GET /cars/new
   def new
@@ -48,7 +48,7 @@ class CarsController < ApplicationController
         format.html { render :edit }
         format.json { render json: @car.errors, status: :unprocessable_entity }
       end
-    end
+    end 
   end
 
   # DELETE /cars/1

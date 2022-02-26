@@ -22,7 +22,7 @@ group :development, :test do
 # gem 'puma', '~> 3.12'
 
 # gem 'puma', '~> 4.3.9'
-gem 'puma', '~> 4.3'
+gem 'puma', '>= 5.6.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -41,6 +41,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
+# updating gems[bundler-audit]
+gem 'nokogiri', '>= 1.13.2'
+gem 'actionpack', '~> 5.2.6'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
