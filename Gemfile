@@ -18,11 +18,7 @@ group :development, :test do
    gem 'pg'
  end
 # Use Puma as the app server
-# original
-# gem 'puma', '~> 3.12'
-
-# gem 'puma', '~> 4.3.9'
-gem 'puma', '>= 5.6.2'
+gem 'puma', '>= 5.6.4'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -43,7 +39,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # updating gems[bundler-audit]
-gem 'nokogiri', '>= 1.13.2'
+gem 'nokogiri', '>= 1.13.4'
 gem 'actionpack', '~> 5.2.6'
 
 # Use ActiveStorage variant
@@ -67,6 +63,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'bundler-audit', require: false
+  gem 'ruby_audit', require: false
 end
 
 group :test do
